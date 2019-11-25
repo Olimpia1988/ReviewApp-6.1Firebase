@@ -14,6 +14,9 @@
 		126F738B238C90100007876E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126F738A238C90100007876E /* Assets.xcassets */; };
 		126F738E238C90100007876E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126F738C238C90100007876E /* LaunchScreen.storyboard */; };
 		126F7399238C90110007876E /* Review6_1_FirebasePreThanksgivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F7398238C90110007876E /* Review6_1_FirebasePreThanksgivingTests.swift */; };
+		126F73A4238C92290007876E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126F73A3238C92290007876E /* GoogleService-Info.plist */; };
+		876E9B6B18DC8DAAB950D770 /* Pods_Review6_1_FirebasePreThanksgivingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2DFBF8EA2EEE2ABC0AFCD /* Pods_Review6_1_FirebasePreThanksgivingTests.framework */; };
+		92683E4B59A251CA8C2C1F00 /* Pods_Review6_1_FirebasePreThanksgiving.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89E23F3D18CA8A4493FE201 /* Pods_Review6_1_FirebasePreThanksgiving.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04ED1CC1DF4E84BE6614E8A9 /* Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgivingTests/Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig"; sourceTree = "<group>"; };
 		126F737E238C900D0007876E /* Review6.1.FirebasePreThanksgiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Review6.1.FirebasePreThanksgiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126F7381238C900D0007876E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126F7383238C900D0007876E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,12 @@
 		126F7394238C90110007876E /* Review6.1.FirebasePreThanksgivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Review6.1.FirebasePreThanksgivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		126F7398238C90110007876E /* Review6_1_FirebasePreThanksgivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review6_1_FirebasePreThanksgivingTests.swift; sourceTree = "<group>"; };
 		126F739A238C90110007876E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126F73A3238C92290007876E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AA70C710EB31BE80C555B2D /* Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgiving/Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig"; sourceTree = "<group>"; };
+		9F53EBBF865B9AE256E8017B /* Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgiving/Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig"; sourceTree = "<group>"; };
+		BAF2DFBF8EA2EEE2ABC0AFCD /* Pods_Review6_1_FirebasePreThanksgivingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Review6_1_FirebasePreThanksgivingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E3C72752E877C84097533 /* Pods-Review6.1.FirebasePreThanksgivingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgivingTests.debug.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgivingTests/Pods-Review6.1.FirebasePreThanksgivingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E89E23F3D18CA8A4493FE201 /* Pods_Review6_1_FirebasePreThanksgiving.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Review6_1_FirebasePreThanksgiving.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92683E4B59A251CA8C2C1F00 /* Pods_Review6_1_FirebasePreThanksgiving.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +63,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876E9B6B18DC8DAAB950D770 /* Pods_Review6_1_FirebasePreThanksgivingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B40BBCED7757C0639274D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F53EBBF865B9AE256E8017B /* Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig */,
+				3AA70C710EB31BE80C555B2D /* Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig */,
+				CC7E3C72752E877C84097533 /* Pods-Review6.1.FirebasePreThanksgivingTests.debug.xcconfig */,
+				04ED1CC1DF4E84BE6614E8A9 /* Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		126F7375238C900D0007876E = {
 			isa = PBXGroup;
 			children = (
 				126F7380238C900D0007876E /* Review6.1.FirebasePreThanksgiving */,
 				126F7397238C90110007876E /* Review6.1.FirebasePreThanksgivingTests */,
 				126F737F238C900D0007876E /* Products */,
+				07B40BBCED7757C0639274D1 /* Pods */,
+				AD57242353C4A13C1901A47A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +111,7 @@
 				126F7387238C900D0007876E /* Main.storyboard */,
 				126F738A238C90100007876E /* Assets.xcassets */,
 				126F738C238C90100007876E /* LaunchScreen.storyboard */,
+				126F73A3238C92290007876E /* GoogleService-Info.plist */,
 				126F738F238C90100007876E /* Info.plist */,
 			);
 			path = Review6.1.FirebasePreThanksgiving;
@@ -99,6 +126,15 @@
 			path = Review6.1.FirebasePreThanksgivingTests;
 			sourceTree = "<group>";
 		};
+		AD57242353C4A13C1901A47A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E89E23F3D18CA8A4493FE201 /* Pods_Review6_1_FirebasePreThanksgiving.framework */,
+				BAF2DFBF8EA2EEE2ABC0AFCD /* Pods_Review6_1_FirebasePreThanksgivingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 126F739D238C90110007876E /* Build configuration list for PBXNativeTarget "Review6.1.FirebasePreThanksgiving" */;
 			buildPhases = (
+				23F1293ADCD138F16547B868 /* [CP] Check Pods Manifest.lock */,
 				126F737A238C900D0007876E /* Sources */,
 				126F737B238C900D0007876E /* Frameworks */,
 				126F737C238C900D0007876E /* Resources */,
+				3DDEA3069668F3A2B82B2DDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 126F73A0238C90110007876E /* Build configuration list for PBXNativeTarget "Review6.1.FirebasePreThanksgivingTests" */;
 			buildPhases = (
+				9EB59C27D10854678AE01D7A /* [CP] Check Pods Manifest.lock */,
 				126F7390238C90110007876E /* Sources */,
 				126F7391238C90110007876E /* Frameworks */,
 				126F7392238C90110007876E /* Resources */,
@@ -180,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126F73A4238C92290007876E /* GoogleService-Info.plist in Resources */,
 				126F738E238C90100007876E /* LaunchScreen.storyboard in Resources */,
 				126F738B238C90100007876E /* Assets.xcassets in Resources */,
 				126F7389238C900D0007876E /* Main.storyboard in Resources */,
@@ -194,6 +234,91 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F1293ADCD138F16547B868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Review6.1.FirebasePreThanksgiving-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DDEA3069668F3A2B82B2DDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Review6.1.FirebasePreThanksgiving/Pods-Review6.1.FirebasePreThanksgiving-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/ExpandingMenu/ExpandingMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandingMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Review6.1.FirebasePreThanksgiving/Pods-Review6.1.FirebasePreThanksgiving-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB59C27D10854678AE01D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Review6.1.FirebasePreThanksgivingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		126F737A238C900D0007876E /* Sources */ = {
@@ -360,6 +485,7 @@
 		};
 		126F739E238C90110007876E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F53EBBF865B9AE256E8017B /* Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +504,7 @@
 		};
 		126F739F238C90110007876E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA70C710EB31BE80C555B2D /* Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +523,7 @@
 		};
 		126F73A1238C90110007876E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7E3C72752E877C84097533 /* Pods-Review6.1.FirebasePreThanksgivingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +546,7 @@
 		};
 		126F73A2238C90110007876E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ED1CC1DF4E84BE6614E8A9 /* Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
