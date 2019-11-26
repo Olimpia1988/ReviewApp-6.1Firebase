@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121E6993238CD94B00CD6799 /* AuthServiceSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E6992238CD94B00CD6799 /* AuthServiceSetUp.swift */; };
+		121E6995238CD95C00CD6799 /* FirebaseTaskCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E6994238CD95C00CD6799 /* FirebaseTaskCollection.swift */; };
+		121E699A238CD9F400CD6799 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E6999238CD9F400CD6799 /* UserModel.swift */; };
+		121E699D238CDA0700CD6799 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E699C238CDA0700CD6799 /* TaskModel.swift */; };
+		121E699F238CDA2000CD6799 /* DescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E699E238CDA2000CD6799 /* DescriptionModel.swift */; };
+		121E69A1238CDA3A00CD6799 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69A0238CDA3A00CD6799 /* Utilities.swift */; };
+		121E69A4238CDA5000CD6799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69A3238CDA5000CD6799 /* Constants.swift */; };
+		121E69A6238CDA5A00CD6799 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69A5238CDA5A00CD6799 /* Alerts.swift */; };
+		121E69AA238CDC2400CD6799 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69A9238CDC2400CD6799 /* HomeViewController.swift */; };
+		121E69AC238CDC3200CD6799 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69AB238CDC3200CD6799 /* InitialViewController.swift */; };
+		121E69AE238CDC3E00CD6799 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69AD238CDC3E00CD6799 /* LoginViewController.swift */; };
+		121E69B0238CDC4900CD6799 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69AF238CDC4900CD6799 /* SignUpViewController.swift */; };
+		121E69B2238CDC5900CD6799 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69B1238CDC5900CD6799 /* CreateTaskViewController.swift */; };
+		121E69B4238CDC7800CD6799 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69B3238CDC7800CD6799 /* SettingsViewController.swift */; };
+		121E69B6238CDCB800CD6799 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69B5238CDCB800CD6799 /* HomeView.swift */; };
+		121E69B8238CDCEF00CD6799 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69B7238CDCEF00CD6799 /* CreatePostView.swift */; };
+		121E69BA238CDD1600CD6799 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E69B9238CDD1600CD6799 /* Cell.swift */; };
 		126F7382238C900D0007876E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F7381238C900D0007876E /* AppDelegate.swift */; };
 		126F7384238C900D0007876E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F7383238C900D0007876E /* SceneDelegate.swift */; };
-		126F7386238C900D0007876E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F7385238C900D0007876E /* ViewController.swift */; };
 		126F7389238C900D0007876E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126F7387238C900D0007876E /* Main.storyboard */; };
 		126F738B238C90100007876E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126F738A238C90100007876E /* Assets.xcassets */; };
 		126F738E238C90100007876E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126F738C238C90100007876E /* LaunchScreen.storyboard */; };
@@ -31,10 +47,26 @@
 
 /* Begin PBXFileReference section */
 		04ED1CC1DF4E84BE6614E8A9 /* Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgivingTests/Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig"; sourceTree = "<group>"; };
+		121E6992238CD94B00CD6799 /* AuthServiceSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceSetUp.swift; sourceTree = "<group>"; };
+		121E6994238CD95C00CD6799 /* FirebaseTaskCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTaskCollection.swift; sourceTree = "<group>"; };
+		121E6999238CD9F400CD6799 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		121E699C238CDA0700CD6799 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		121E699E238CDA2000CD6799 /* DescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionModel.swift; sourceTree = "<group>"; };
+		121E69A0238CDA3A00CD6799 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		121E69A3238CDA5000CD6799 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		121E69A5238CDA5A00CD6799 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		121E69A9238CDC2400CD6799 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		121E69AB238CDC3200CD6799 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		121E69AD238CDC3E00CD6799 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		121E69AF238CDC4900CD6799 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		121E69B1238CDC5900CD6799 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		121E69B3238CDC7800CD6799 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		121E69B5238CDCB800CD6799 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		121E69B7238CDCEF00CD6799 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		121E69B9238CDD1600CD6799 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		126F737E238C900D0007876E /* Review6.1.FirebasePreThanksgiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Review6.1.FirebasePreThanksgiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126F7381238C900D0007876E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126F7383238C900D0007876E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		126F7385238C900D0007876E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		126F7388238C900D0007876E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		126F738A238C90100007876E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126F738D238C90100007876E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,8 +110,71 @@
 				CC7E3C72752E877C84097533 /* Pods-Review6.1.FirebasePreThanksgivingTests.debug.xcconfig */,
 				04ED1CC1DF4E84BE6614E8A9 /* Pods-Review6.1.FirebasePreThanksgivingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		121E6991238CD91100CD6799 /* FirebaseUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				126F7381238C900D0007876E /* AppDelegate.swift */,
+				121E6992238CD94B00CD6799 /* AuthServiceSetUp.swift */,
+				121E6994238CD95C00CD6799 /* FirebaseTaskCollection.swift */,
+				126F7383238C900D0007876E /* SceneDelegate.swift */,
+			);
+			path = FirebaseUtilities;
+			sourceTree = "<group>";
+		};
+		121E6996238CD96600CD6799 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				121E69AF238CDC4900CD6799 /* SignUpViewController.swift */,
+				121E69AD238CDC3E00CD6799 /* LoginViewController.swift */,
+				121E69A9238CDC2400CD6799 /* HomeViewController.swift */,
+				121E69B3238CDC7800CD6799 /* SettingsViewController.swift */,
+				121E69AB238CDC3200CD6799 /* InitialViewController.swift */,
+				121E69B1238CDC5900CD6799 /* CreateTaskViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		121E6997238CD97900CD6799 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				126F7387238C900D0007876E /* Main.storyboard */,
+				121E69B5238CDCB800CD6799 /* HomeView.swift */,
+				121E69B7238CDCEF00CD6799 /* CreatePostView.swift */,
+				121E69B9238CDD1600CD6799 /* Cell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		121E6998238CD98E00CD6799 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				126F738A238C90100007876E /* Assets.xcassets */,
+				126F738C238C90100007876E /* LaunchScreen.storyboard */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		121E699B238CD9FB00CD6799 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				121E6999238CD9F400CD6799 /* UserModel.swift */,
+				121E699C238CDA0700CD6799 /* TaskModel.swift */,
+				121E699E238CDA2000CD6799 /* DescriptionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		121E69A2238CDA4100CD6799 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				121E69A0238CDA3A00CD6799 /* Utilities.swift */,
+				121E69A3238CDA5000CD6799 /* Constants.swift */,
+				121E69A5238CDA5A00CD6799 /* Alerts.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		126F7375238C900D0007876E = {
@@ -105,12 +200,12 @@
 		126F7380238C900D0007876E /* Review6.1.FirebasePreThanksgiving */ = {
 			isa = PBXGroup;
 			children = (
-				126F7381238C900D0007876E /* AppDelegate.swift */,
-				126F7383238C900D0007876E /* SceneDelegate.swift */,
-				126F7385238C900D0007876E /* ViewController.swift */,
-				126F7387238C900D0007876E /* Main.storyboard */,
-				126F738A238C90100007876E /* Assets.xcassets */,
-				126F738C238C90100007876E /* LaunchScreen.storyboard */,
+				121E69A2238CDA4100CD6799 /* Utilities */,
+				121E699B238CD9FB00CD6799 /* Models */,
+				121E6991238CD91100CD6799 /* FirebaseUtilities */,
+				121E6996238CD96600CD6799 /* Controllers */,
+				121E6997238CD97900CD6799 /* Views */,
+				121E6998238CD98E00CD6799 /* Extras */,
 				126F73A3238C92290007876E /* GoogleService-Info.plist */,
 				126F738F238C90100007876E /* Info.plist */,
 			);
@@ -325,9 +420,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126F7386238C900D0007876E /* ViewController.swift in Sources */,
+				121E6993238CD94B00CD6799 /* AuthServiceSetUp.swift in Sources */,
 				126F7382238C900D0007876E /* AppDelegate.swift in Sources */,
+				121E6995238CD95C00CD6799 /* FirebaseTaskCollection.swift in Sources */,
+				121E69AC238CDC3200CD6799 /* InitialViewController.swift in Sources */,
+				121E699A238CD9F400CD6799 /* UserModel.swift in Sources */,
+				121E69B6238CDCB800CD6799 /* HomeView.swift in Sources */,
+				121E69A4238CDA5000CD6799 /* Constants.swift in Sources */,
 				126F7384238C900D0007876E /* SceneDelegate.swift in Sources */,
+				121E69B4238CDC7800CD6799 /* SettingsViewController.swift in Sources */,
+				121E69A1238CDA3A00CD6799 /* Utilities.swift in Sources */,
+				121E69B0238CDC4900CD6799 /* SignUpViewController.swift in Sources */,
+				121E69AA238CDC2400CD6799 /* HomeViewController.swift in Sources */,
+				121E699F238CDA2000CD6799 /* DescriptionModel.swift in Sources */,
+				121E69A6238CDA5A00CD6799 /* Alerts.swift in Sources */,
+				121E69B8238CDCEF00CD6799 /* CreatePostView.swift in Sources */,
+				121E69AE238CDC3E00CD6799 /* LoginViewController.swift in Sources */,
+				121E699D238CDA0700CD6799 /* TaskModel.swift in Sources */,
+				121E69B2238CDC5900CD6799 /* CreateTaskViewController.swift in Sources */,
+				121E69BA238CDD1600CD6799 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
