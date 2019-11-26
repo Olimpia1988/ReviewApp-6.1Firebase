@@ -20,7 +20,13 @@ class SettingsViewController: UIViewController {
     }
     
     @objc func signoutFromFirebase() {
-       //MARK: Sign out from Firebase 
+     try! Auth.auth().signOut()
+               showAlert(title: "Sign Out?", message: "Are you sure you want to sign out") { (action) in
+                   let srb = UIStoryboard(name: "Main", bundle: nil)
+                                    let startingVC = srb.instantiateViewController(identifier: Constants.Storyboard.startingVC)
+                         self.view.window?.rootViewController = startingVC
+                         self.view.window?.makeKeyAndVisible()
+               }
 
     }
     

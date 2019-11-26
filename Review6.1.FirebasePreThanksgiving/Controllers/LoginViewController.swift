@@ -26,7 +26,20 @@ class LoginViewController: UIViewController {
     
 
     @IBAction func loginAction(_ sender: Any) {
-      //MARK: Do login logic here
+        let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            if error != nil {
+                self.errorLabel.isHidden = false
+                self.errorLabel.text = error?.localizedDescription
+            } else {
+                let homeVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.storyBoardID) as? HomeViewController
+                let navController = UINavigationController(rootViewController: homeVC!)
+                self.view.window?.rootViewController = navController
+                self.view.window?.makeKeyAndVisible()
+            }
+        }
     }
     
 
