@@ -31,6 +31,11 @@
 		126F738E238C90100007876E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126F738C238C90100007876E /* LaunchScreen.storyboard */; };
 		126F7399238C90110007876E /* Review6_1_FirebasePreThanksgivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126F7398238C90110007876E /* Review6_1_FirebasePreThanksgivingTests.swift */; };
 		126F73A4238C92290007876E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126F73A3238C92290007876E /* GoogleService-Info.plist */; };
+		12F98C2223AAD8B0009E1EAC /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F98C2123AAD8B0009E1EAC /* DetailedViewController.swift */; };
+		12F98C2423AAD8BD009E1EAC /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F98C2323AAD8BD009E1EAC /* DetailedView.swift */; };
+		12F98C2623ABD09F009E1EAC /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F98C2523ABD09F009E1EAC /* DirectionsViewController.swift */; };
+		12F98C2823ABD107009E1EAC /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F98C2723ABD107009E1EAC /* DirectionsView.swift */; };
+		12F98C2A23ABD146009E1EAC /* ShedulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F98C2923ABD146009E1EAC /* ShedulesViewController.swift */; };
 		876E9B6B18DC8DAAB950D770 /* Pods_Review6_1_FirebasePreThanksgivingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2DFBF8EA2EEE2ABC0AFCD /* Pods_Review6_1_FirebasePreThanksgivingTests.framework */; };
 		92683E4B59A251CA8C2C1F00 /* Pods_Review6_1_FirebasePreThanksgiving.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89E23F3D18CA8A4493FE201 /* Pods_Review6_1_FirebasePreThanksgiving.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +80,11 @@
 		126F7398238C90110007876E /* Review6_1_FirebasePreThanksgivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review6_1_FirebasePreThanksgivingTests.swift; sourceTree = "<group>"; };
 		126F739A238C90110007876E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		126F73A3238C92290007876E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12F98C2123AAD8B0009E1EAC /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		12F98C2323AAD8BD009E1EAC /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		12F98C2523ABD09F009E1EAC /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		12F98C2723ABD107009E1EAC /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		12F98C2923ABD146009E1EAC /* ShedulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShedulesViewController.swift; sourceTree = "<group>"; };
 		3AA70C710EB31BE80C555B2D /* Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgiving/Pods-Review6.1.FirebasePreThanksgiving.release.xcconfig"; sourceTree = "<group>"; };
 		9F53EBBF865B9AE256E8017B /* Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig"; path = "Target Support Files/Pods-Review6.1.FirebasePreThanksgiving/Pods-Review6.1.FirebasePreThanksgiving.debug.xcconfig"; sourceTree = "<group>"; };
 		BAF2DFBF8EA2EEE2ABC0AFCD /* Pods_Review6_1_FirebasePreThanksgivingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Review6_1_FirebasePreThanksgivingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +139,10 @@
 			children = (
 				121E69AF238CDC4900CD6799 /* SignUpViewController.swift */,
 				121E69AD238CDC3E00CD6799 /* LoginViewController.swift */,
+				12F98C2923ABD146009E1EAC /* ShedulesViewController.swift */,
+				12F98C2523ABD09F009E1EAC /* DirectionsViewController.swift */,
 				121E69A9238CDC2400CD6799 /* HomeViewController.swift */,
+				12F98C2123AAD8B0009E1EAC /* DetailedViewController.swift */,
 				121E69B3238CDC7800CD6799 /* SettingsViewController.swift */,
 				121E69AB238CDC3200CD6799 /* InitialViewController.swift */,
 				121E69B1238CDC5900CD6799 /* CreateTaskViewController.swift */,
@@ -142,7 +155,9 @@
 			children = (
 				126F7387238C900D0007876E /* Main.storyboard */,
 				121E69B5238CDCB800CD6799 /* HomeView.swift */,
+				12F98C2723ABD107009E1EAC /* DirectionsView.swift */,
 				121E69B7238CDCEF00CD6799 /* CreatePostView.swift */,
+				12F98C2323AAD8BD009E1EAC /* DetailedView.swift */,
 				121E69B9238CDD1600CD6799 /* Cell.swift */,
 			);
 			path = Views;
@@ -422,7 +437,10 @@
 			files = (
 				121E6993238CD94B00CD6799 /* AuthServiceSetUp.swift in Sources */,
 				126F7382238C900D0007876E /* AppDelegate.swift in Sources */,
+				12F98C2823ABD107009E1EAC /* DirectionsView.swift in Sources */,
+				12F98C2223AAD8B0009E1EAC /* DetailedViewController.swift in Sources */,
 				121E6995238CD95C00CD6799 /* FirebaseTaskCollection.swift in Sources */,
+				12F98C2423AAD8BD009E1EAC /* DetailedView.swift in Sources */,
 				121E69AC238CDC3200CD6799 /* InitialViewController.swift in Sources */,
 				121E699A238CD9F400CD6799 /* UserModel.swift in Sources */,
 				121E69B6238CDCB800CD6799 /* HomeView.swift in Sources */,
@@ -432,9 +450,11 @@
 				121E69A1238CDA3A00CD6799 /* Utilities.swift in Sources */,
 				121E69B0238CDC4900CD6799 /* SignUpViewController.swift in Sources */,
 				121E69AA238CDC2400CD6799 /* HomeViewController.swift in Sources */,
+				12F98C2623ABD09F009E1EAC /* DirectionsViewController.swift in Sources */,
 				121E699F238CDA2000CD6799 /* DescriptionModel.swift in Sources */,
 				121E69A6238CDA5A00CD6799 /* Alerts.swift in Sources */,
 				121E69B8238CDCEF00CD6799 /* CreatePostView.swift in Sources */,
+				12F98C2A23ABD146009E1EAC /* ShedulesViewController.swift in Sources */,
 				121E69AE238CDC3E00CD6799 /* LoginViewController.swift in Sources */,
 				121E699D238CDA0700CD6799 /* TaskModel.swift in Sources */,
 				121E69B2238CDC5900CD6799 /* CreateTaskViewController.swift in Sources */,

@@ -12,14 +12,14 @@ class HomeViewController: UIViewController {
             tableView.tableView.reloadData()
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpNavBars()
         delegatesAndAddedViews()
         view.backgroundColor = .white
-
-       
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -28,31 +28,31 @@ class HomeViewController: UIViewController {
         expandingButtons()
     }
     
-
+    
     func setUpNavBars() {
-           self.navigationController?.navigationBar.prefersLargeTitles = true
-           let attrs = [NSAttributedString.Key.foregroundColor: UIColor.red, NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!]
-           UINavigationBar.appearance().titleTextAttributes = attrs
-           navigationItem.title = "Tasks"
-           navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Settings", style: .plain, target: self, action: #selector(settingsVC))
-           navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.init(named: "add"), style: .plain, target: self, action: #selector(setupButtonTasks))
-       }
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        let attrs = [NSAttributedString.Key.foregroundColor: UIColor.red, NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!]
+        UINavigationBar.appearance().titleTextAttributes = attrs
+        navigationItem.title = "Tasks"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Settings", style: .plain, target: self, action: #selector(settingsVC))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.init(named: "add"), style: .plain, target: self, action: #selector(setupButtonTasks))
+    }
     
     @objc func setupButtonTasks() {
-          let addVC = CreateTaskViewController()
-          self.navigationController?.pushViewController(addVC, animated: true)
-      }
-      
-      @objc func settingsVC() {
-          let settingsVC = SettingsViewController()
-          self.navigationController?.pushViewController(settingsVC, animated: true)
-      }
+        let addVC = CreateTaskViewController()
+        self.navigationController?.pushViewController(addVC, animated: true)
+    }
+    
+    @objc func settingsVC() {
+        let settingsVC = SettingsViewController()
+        self.navigationController?.pushViewController(settingsVC, animated: true)
+    }
     
     func delegatesAndAddedViews() {
-          self.view.addSubview(tableView)
+        self.view.addSubview(tableView)
         tableView.tableView.delegate = self
         tableView.tableView.dataSource = self
-      }
+    }
     
     //MARK: Expanding buttons
     func expandingButtons() {
@@ -107,7 +107,7 @@ class HomeViewController: UIViewController {
             }
         }
     }
-
+    
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -116,12 +116,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      guard let cell = tableView.dequeueReusableCell(withIdentifier: "taskCell", for: indexPath) as? Cell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "taskCell", for: indexPath) as? Cell else { return UITableViewCell() }
         let singleTask = allTasks[indexPath.row]
         cell.selectionStyle = .none
         cell.taskLabel.text = singleTask.title
         cell.dateLabel.text = singleTask.dateCreated.getDate()
-       
+        
         //MARK: Crete cell values
         
         
@@ -130,6 +130,11 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailedVC = DetailedViewController()
+        self.navigationController?.pushViewController(detailedVC, animated: true)
     }
     
     
