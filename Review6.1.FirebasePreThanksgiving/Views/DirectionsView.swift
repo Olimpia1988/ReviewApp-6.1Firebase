@@ -5,13 +5,14 @@ class DirectionView: UIView {
     lazy var scheduleButton: UIButton = {
         let scheduleButton = UIButton()
         Utilities.styleFilledButton(scheduleButton)
-        scheduleButton.titleLabel?.text = "Schedules"
+        scheduleButton.setTitle("Schedules", for: .normal)
         scheduleButton.titleLabel?.textColor = .white
         return scheduleButton
     }()
     
     lazy var tasksButton: UIButton = {
        let tasksBuuton = UIButton()
+        tasksBuuton.setTitle("Tasks List", for: .normal)
         Utilities.styleFilledButton(tasksBuuton)
         return tasksBuuton
     }()

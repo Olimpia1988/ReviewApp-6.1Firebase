@@ -34,7 +34,7 @@ class HomeViewController: UIViewController {
         let attrs = [NSAttributedString.Key.foregroundColor: UIColor.red, NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!]
         UINavigationBar.appearance().titleTextAttributes = attrs
         navigationItem.title = "Tasks"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Settings", style: .plain, target: self, action: #selector(settingsVC))
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.init(named: "add"), style: .plain, target: self, action: #selector(setupButtonTasks))
     }
     

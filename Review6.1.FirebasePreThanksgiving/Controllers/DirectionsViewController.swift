@@ -21,7 +21,7 @@ class DirectionViewController: UIViewController {
         self.navigationController?.navigationBar.prefersLargeTitles = true
         let attrs = [NSAttributedString.Key.foregroundColor: UIColor.red, NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!]
         UINavigationBar.appearance().titleTextAttributes = attrs
-         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.init(named: "add"), style: .plain, target: self, action: #selector(goToSettingsVC))
+         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.init(named: "settings"), style: .plain, target: self, action: #selector(goToSettingsVC))
         navigationItem.title = "Welcome"
     }
     
